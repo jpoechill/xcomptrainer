@@ -75,6 +75,7 @@ a {
   color: #ffffff;
 }
 
+/* W/L Tabs */
 .tab {
   box-shadow: 1px 1px 1px 1px hsla(0, 0%, 6%, .3);
   transition: all .3s ease-out;
