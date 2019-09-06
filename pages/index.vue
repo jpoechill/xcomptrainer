@@ -23,7 +23,7 @@
     <div class="container pt-2">
       <div v-for="n in 4" :key="n" class="row">
         <div class="col-md-4 my-3">
-          <div class="tab bg-dark ripple-drk noselect text-center text-uppercase p-2 rounded font-weight-bold">
+          <div class="tab bg-blue ripple-drk noselect text-center text-uppercase p-2 rounded font-weight-bold">
             Loss
           </div>
           <div class="w-100">
@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="col-md-4 my-3">
-          <div class="tab bg-dark ripple-drk noselect text-center text-uppercase p-2 rounded font-weight-bold">
+          <div class="tab bg-blue ripple-drk noselect text-center text-uppercase p-2 rounded font-weight-bold">
             Loss
           </div>
           <div class="w-100">
@@ -103,12 +103,16 @@ a {
 }
 
 .ripple-drk:hover {
-  background: #555 radial-gradient(circle, transparent 1%, #333 1%) center/15000%;
+  background: #064583 radial-gradient(circle, transparent 1%, #063f77 1%) center/15000%;
 }
 
 .ripple-drk:active {
   background-size: 100%;
   transition: background 0s;
+}
+
+.bg-blue {
+  background-color: #063f77;
 }
 
 /* Disable Text Selection */
