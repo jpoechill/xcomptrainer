@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     playSound: function (soundIndex) {
-      var soundFile = "/kill-sound-" + soundIndex + ".m4a"
+      var soundFile = "/kill-sound-" + soundIndex + ".mp3"
       var audio = new Audio(soundFile)
 
       audio.play();
