@@ -15,45 +15,14 @@
       </div>
       <div class="row">
         <div class="col-md-12 text-white text-center">
-          <a href="">Tables</a> | <a href="">Graphs</a>
+          <nuxt-link to="/">Tables</nuxt-link> | 
+          <nuxt-link to="/graphs">Graphs</nuxt-link> | 
+          <nuxt-link to="/sounds">Sounds</nuxt-link>
         </div>
       </div>
     </div>
 
-    <div class="container pt-2">
-      <div v-for="n in 4" :key="n" class="row">
-        <div class="col-md-4 my-3">
-          <div class="tab bg-blue ripple-drk noselect text-center text-uppercase p-2 rounded font-weight-bold">
-            Loss
-          </div>
-          <div class="w-100">
-            <div class="d-inline-block text-white float-right">
-              + 
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 my-3">
-          <div class="tab bg-light text-dark noselect ripple-lgt text-center text-uppercase p-2 rounded font-weight-bold">
-            Win
-          </div>
-          <div class="w-100">
-            <div class="d-inline-block text-white float-right">
-              + 
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 my-3">
-          <div class="tab bg-blue ripple-drk noselect text-center text-uppercase p-2 rounded font-weight-bold">
-            Loss
-          </div>
-          <div class="w-100">
-            <div class="d-inline-block text-white float-right">
-              + 
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <nuxt-child />
 
     <div class="container">
       <div class="row">
